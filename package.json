@@ -1,0 +1,44 @@
+{
+  "name": "generator-aws-lambda-boilerplate",
+  "version": "0.0.0",
+  "description": "Lambda function boilerplate with Yeoman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "INETSYS",
+  "repository": "inetsys/generator-aws-lambda-boilerplate",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "camelcase": "error",
+      "no-console": "off",
+      "yoda": "error",
+      "comma-style": [
+        "error",
+        "last"
+      ],
+      "func-call-spacing": [
+        "error",
+        "never"
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ]
+    }
+  }
+}

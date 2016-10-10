@@ -1,0 +1,12 @@
+{
+    "version": "0",
+    "id": "dcf4cfc8-6096-48d6-bc3f-9abacd5be36b",
+    "detail-type": "Scheduled Event",
+    "source": "aws.events",
+    "account": "<%= account %>",
+    "time": "2016-04-18T16:55:12Z",
+    "region": "<%= region %>",
+    "resources": [
+        "arn:aws:events:eu-central-1:<%= account %>:rule/EveryHour" ],
+    "detail": {}
+}

@@ -1,0 +1,13 @@
+{
+    "node": true,
+    "bitwise": true,
+    "curly": true,
+    "eqnull": true,
+    "latedef": true,
+    "noarg": true,
+    "undef": true,
+    "unused": true,
+    "strict": "global",
+    "funcscope": true,
+    "shadow": true
+}
